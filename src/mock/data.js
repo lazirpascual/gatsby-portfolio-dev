@@ -31,34 +31,35 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Shopping Website',
     info: 'Fullstack MERN application that models an e-commerce site that lets you buy computer parts. Users can add, remove, and update products from a shopping cart as well as filter products by categories, all stored in a MongoDB Database. Frontend uses React.js and Material-UI to develop a responsive design, which is supported with a backend built with Node.js and Express API.',
-    info2: 'Built with React.js, Node.js, Express API, MongoDB, REST API, and Material-UI.',
+    info2:
+      'Built with React.js (Context API), Node.js, Express API, MongoDB, REST API, and Material-UI.',
     url: 'https://cloudcomputers.herokuapp.com/',
     repo: 'https://github.com/lazirpascual/shopping-website', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project2.jpg',
     title: 'CV Builder',
-    info: '',
-    info2: '',
+    info: 'React application that lets you build your own, personal CV, with an option to render it as a PDF. Performs basic CRUD operations, styled with Material-UI to provide a clean user interface.',
+    info2: 'Built with React.js (Hooks and Context API), React-PDF library, and Material-UI.',
     url: 'https://lazirpascual.github.io/react-cv-builder/',
     repo: 'https://github.com/lazirpascual/react-cv-builder', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project3.jpg',
     title: 'To-Do List',
-    info: '',
-    info2: '',
+    info: 'React application that models a to-do list. Performs basic CRUD operations with the ability to add, update, delete, and save tasks.',
+    info2: 'Built with React JS (Class Components) and Material-IU.',
     url: 'https://lazirpascual.github.io/react-to-do-list/',
     repo: 'https://github.com/lazirpascual/react-to-do-list', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project4.jpg',
     title: 'Weather App',
-    info: '',
-    info2: '',
+    info: `JavaScript application that dynamically displays the present weather at the user's favorite location. Interacts with an external weather API to fetch data, using Promises and Async/Await methods.`,
+    info2: 'Built with Vanilla JS, HTML, CSS and Webpack.',
     url: 'https://lazirpascual.github.io/weather-app/',
     repo: 'https://github.com/lazirpascual/weather-app', // if no repo, the button will not show up
   },
