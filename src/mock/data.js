@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I am currently a 2nd year co-op student studying Software Engineering Technology at Conestoga College. I am taking my knowledge further by learning about web development in two online resources, The Odin Project and Full Stack Open.',
+  paragraphTwo:
+    'I am an innovative, hard-working software developer and problem solver that enjoys building high-quality web applications with modern technologies. I am passionate about all aspects of software development and I like to think of myself as a fast learner, where I deployed my first MERN application from scratch within just two months.',
+  paragraphThree:
+    'Right now, I am looking for a position as a front end, back end, or full stack developer.',
   resume: 'https://drive.google.com/file/d/1HIG0Ldy3opzcXxsaQdkDGhY_YPCQ7Xkb/view?usp=sharing', // if no resume, the button will not show up
 };
 
