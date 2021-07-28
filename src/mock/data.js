@@ -21,10 +21,9 @@ export const aboutData = {
   paragraphOne:
     'I am currently a 2nd year co-op student studying Software Engineering Technology at Conestoga College. I am taking my knowledge further by learning about web development in two online resources, The Odin Project and Full Stack Open.',
   paragraphTwo:
-    'I am an innovative, hard-working software developer and problem solver that enjoys building high-quality web applications with modern technologies. I am passionate about all aspects of software development and I like to think of myself as a fast learner, where I deployed my first MERN application from scratch within just two months.',
-  paragraphThree:
-    'Right now, I am looking for a position as a front end, back end, or full stack developer.',
-  resume: 'https://pdfhost.io/v/yG2Ax59BG_CV_lazirpascualpdf.pdf', // if no resume, the button will not show up
+    'I am an innovative, hard-working software developer and problem solver that enjoys building high-quality web applications with modern technologies. I am passionate about all aspects of software development and I like to think of myself as a fast learner, where I went from not knowing what HTML was, to deploying my first MERN application within the span of two months.',
+  paragraphThree: 'Right now, I am looking for a position as a Junior Software Developer.',
+  resume: 'https://pdfhost.io/v/XRlGDsmYS_CV_lazirpascual.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,11 +31,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Shopping Website',
-    info: 'Fullstack MERN application that models an e-commerce site that lets you buy computer parts. Users can add, remove, and update products from a shopping cart as well as filter products by categories, all stored in a MongoDB Database. Frontend uses React.js and Material-UI to develop a responsive design, which is supported with a backend built with Node.js and Express API.',
+    title: 'Cloud Computers',
+    info: 'Fullstack MERN application that models an e-commerce site that lets you buy computer parts. Users can register/login, add/remove/update (CRUD) products from a shopping cart, create ratings/reviews for each product and filter products by categories or search them by name. ',
     info2:
-      'Built with React.js (Context API), Node.js, Express API, MongoDB, REST API, and Material-UI.',
-    url: 'https://cloudcomputers.herokuapp.com/',
+      'Frontend uses React.js (Context API) and Material-UI to develop a responsive design, which is supported with a backend built with Node.js, Express API and MongoDB. Includes Unit, Integration and End-To-End Testing.',
+    url: 'https://cloudcomputers.netlify.app/',
     repo: 'https://github.com/lazirpascual/shopping-website', // if no repo, the button will not show up
   },
   {
