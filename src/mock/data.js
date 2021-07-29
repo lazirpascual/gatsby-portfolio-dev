@@ -32,7 +32,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Cloud Computers',
-    info: 'Fullstack MERN application that models an e-commerce site that lets you buy computer parts. Users can register/login, add/remove/update (CRUD) products from a shopping cart, create ratings/reviews for each product and filter products by categories or search them by name. ',
+    info: 'Fullstack MERN application that models an e-commerce site that lets you buy computer parts. Users can register/login, add/remove/update (CRUD) products from a shopping cart, create ratings/reviews for each product and filter products by categories or search them by name in the shop. ',
     info2:
       'Frontend uses React.js (Context API) and Material-UI to develop a responsive design, which is supported with a backend built with Node.js, Express API and MongoDB. Includes Unit, Integration and End-To-End Testing.',
     url: 'https://cloudcomputers.netlify.app/',
@@ -40,21 +40,22 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project2.jpg',
-    title: 'CV Builder',
-    info: 'React application that lets you build your own, personal CV, with an option to render it as a PDF. Performs basic CRUD operations, styled with Material-UI to provide a clean user interface.',
-    info2: 'Built with React.js (Hooks and Context API), React-PDF library, and Material-UI.',
-    url: 'https://lazirpascual.github.io/react-cv-builder/',
-    repo: 'https://github.com/lazirpascual/react-cv-builder', // if no repo, the button will not show up
+    img: 'project3.jpg',
+    title: 'Covid-19 Tracker',
+    info: 'React application that can help spread awareness about Covid-19 by visualizing data/statistics about the virus. It uses an external API to dynamically display the main statistics (number of infected, recovered, deaths) of the virus in over 190+ countries around the globe.',
+    info2:
+      'Built with React JS (Hooks and Async/Await), Charts JS and styled with Material-UI to provide a clean user interface.',
+    url: 'https://track-covid-19-app.netlify.app/',
+    repo: 'https://github.com/lazirpascual/covid-19-tracker', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project3.jpg',
-    title: 'To-Do List',
-    info: 'React application that models a to-do list. Performs basic CRUD operations with the ability to add, update, delete, and save tasks.',
-    info2: 'Built with React JS (Class Components) and Material-IU.',
-    url: 'https://lazirpascual.github.io/react-to-do-list/',
-    repo: 'https://github.com/lazirpascual/react-to-do-list', // if no repo, the button will not show up
+    img: 'project2.jpg',
+    title: 'CV Builder',
+    info: 'React application that lets you build your own, personal CV, with an option to render it as a PDF. Performs basic CRUD operations, with the ability to add/remove/update sections for experience, education, and skills. Users can preview their CVs before downloading it as a PDF.',
+    info2: 'Built with React.js (Hooks and Context API), React-PDF library, and Material-UI.',
+    url: 'https://lazirpascual.github.io/react-cv-builder/',
+    repo: 'https://github.com/lazirpascual/react-cv-builder', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
