@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I am an innovative, hard-working software developer and problem solver that enjoys building high-quality web applications with modern technologies. I am passionate about all aspects of software development and I like to think of myself as a fast learner, where I went from not knowing what HTML was, to deploying my first MERN application within the span of two months.',
   paragraphThree: 'Right now, I am looking for a position as a Junior Software Developer.',
-  resume: 'https://pdfhost.io/v/XRlGDsmYS_CV_lazirpascual.pdf', // if no resume, the button will not show up
+  resume: './pdf/CV.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
