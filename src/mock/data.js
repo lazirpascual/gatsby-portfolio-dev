@@ -21,8 +21,8 @@ export const aboutData = {
   paragraphOne:
     'I am currently a 2nd year co-op student studying Software Engineering Technology at Conestoga College. I am taking my knowledge further by learning about web development in two online resources, The Odin Project and Full Stack Open.',
   paragraphTwo:
-    'I am an innovative, hard-working software developer and problem solver that enjoys building high-quality web applications with modern technologies. I am passionate about all aspects of software development and I like to think of myself as a fast learner, where I went from not knowing what HTML was, to deploying my first MERN application within the span of two months.',
-  paragraphThree: 'Right now, I am looking for a position as a Junior Software Developer.',
+    'I am an innovative, hard-working software developer and problem solver that enjoys building high-quality web applications with modern technologies. I am hard-worker and I am passionate about all aspects of software development.',
+  paragraphThree: 'Right now, I am looking for a position as an Entry-Level Software Developer.',
   resume: './pdf/CV.pdf', // if no resume, the button will not show up
 };
 
@@ -30,11 +30,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project1.jpg',
+    title: 'Chat Vault',
+    info: `Fullstack MERN application that models a social media website, including a Realtime Chat feature using Socket.IO. Users can register/login (JSON Web Token), create and update their own profile, chat with another user, follow/unfollow a user, and search for a user's profile or post. Posts can also be created, deleted, and updated where each user can like/dislike and add/delete comments to each post.`,
+    info2:
+      'Frontend uses React.js (Context API) and Material-UI. Backend is built with Node.js, Express API, MongoDB, and Socket.IO. Includes Unit Testing.',
+    url: 'https://chatvault.netlify.app/',
+    repo: 'https://github.com/lazirpascual/chat-vault', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.jpg',
     title: 'Cloud Computers',
     info: 'Fullstack MERN application that models an e-commerce site that lets you buy computer parts. Users can register/login, add/remove/update (CRUD) products from a shopping cart, create ratings/reviews for each product and filter products by categories or search them by name in the shop. ',
     info2:
-      'Frontend uses React.js (Context API) and Material-UI to develop a responsive design, which is supported with a backend built with Node.js, Express API and MongoDB. Includes Unit, Integration and End-To-End Testing.',
+      'Frontend uses React.js (Context API) and Material-UI to develop a responsive design, which is supported with a backend built with Node.js, Express API and MongoDB. Includes Unit and Integration Testing.',
     url: 'https://cloudcomputers.netlify.app/',
     repo: 'https://github.com/lazirpascual/shopping-website', // if no repo, the button will not show up
   },
@@ -56,15 +66,6 @@ export const projectsData = [
     info2: 'Built with React.js (Hooks and Context API), React-PDF library, and Material-UI.',
     url: 'https://lazirpascual.github.io/react-cv-builder/',
     repo: 'https://github.com/lazirpascual/react-cv-builder', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project4.jpg',
-    title: 'Weather App',
-    info: `JavaScript application that dynamically displays the present weather at the user's favorite location. Interacts with an external weather API to fetch data, using Promises and Async/Await methods.`,
-    info2: 'Built with Vanilla JS, HTML, CSS and Webpack.',
-    url: 'https://lazirpascual.github.io/weather-app/',
-    repo: 'https://github.com/lazirpascual/weather-app', // if no repo, the button will not show up
   },
 ];
 
