@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am currently a 2nd year co-op student studying Software Engineering Technology at Conestoga College. I am taking my knowledge further by learning about web development in two online resources, The Odin Project and Full Stack Open.',
+    'I am a 2nd year Software Engineering Co-Op student studying at Conestoga College. This program has taught me a solid foundation to the world of programming, improving my ability to problem solve and creatively think outside the box. Through hard work and effort, I was able to become one of the top 40 students to earn a Co-Op spot out of 150+ students from my first-year intake.',
   paragraphTwo:
-    'I am an innovative, hard-working software developer and problem solver that enjoys building high-quality web applications with modern technologies. I am hard-worker and I am passionate about all aspects of software development.',
+    'I am currently learning about web development, more specifically, JavaScript and React, and enjoy building high-quality web applications with modern frontend and backend technologies.',
   paragraphThree: 'Right now, I am looking for a position as an Entry-Level Software Developer.',
   resume: './pdf/CV.pdf', // if no resume, the button will not show up
 };
