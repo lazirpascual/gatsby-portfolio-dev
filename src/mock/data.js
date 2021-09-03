@@ -22,7 +22,8 @@ export const aboutData = {
     'I am a 2nd year Software Engineering Co-Op student studying at Conestoga College. This program has taught me a solid foundation to the world of programming, improving my ability to problem solve and creatively think outside the box. Through hard work and effort, I was able to become one of the top 40 students to earn a Co-Op spot out of 150+ students from my first-year intake.',
   paragraphTwo:
     'I am currently learning about web development, more specifically, JavaScript and React, and enjoy building high-quality web applications with modern frontend and backend technologies.',
-  paragraphThree: 'Right now, I am looking for a position as an Entry-Level Software Developer.',
+  paragraphThree:
+    'Right now, I am looking for a co-op position as an Entry-Level Software Developer.',
   resume: './pdf/CV.pdf', // if no resume, the button will not show up
 };
 
@@ -42,9 +43,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Cloud Computers',
-    info: 'Fullstack MERN application that models an e-commerce site that lets you buy computer parts. Users can register/login, add/remove/update (CRUD) products from a shopping cart, create ratings/reviews for each product and filter products by categories or search them by name in the shop. ',
+    info: 'Fullstack PERN application that models an e-commerce site that lets users buy computer parts. Users can register/login, add/remove/update (CRUD) products from a shopping cart, create ratings/reviews for each product and filter products by categories or search them by name in the shop.',
     info2:
-      'Frontend uses React.js (Context API) and Material-UI to develop a responsive design, which is supported with a backend built with Node.js, Express API and MongoDB. Includes Unit and Integration Testing.',
+      'Frontend uses React.js (Context API) and Material-UI to develop a responsive design, which is supported with a backend built with Node.js, Express API and PostgreSQL. Includes Unit and Integration Testing.',
     url: 'https://cloudcomputers.netlify.app/',
     repo: 'https://github.com/lazirpascual/shopping-website', // if no repo, the button will not show up
   },
