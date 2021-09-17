@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Lazir Pascual,',
-  subtitle: 'An aspiring Software Developer',
+  subtitle: 'An aspiring Software Developer.',
   cta: '',
 };
 
@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I am currently learning about web development, more specifically, JavaScript and React, and enjoy building high-quality web applications with modern frontend and backend technologies.',
   paragraphThree:
-    'Right now, I am looking for a co-op position as an Entry-Level Software Developer.',
+    'Right now, I am looking for a co-op or internship position as an Entry-Level Software Developer.',
   resume: './pdf/CV.pdf', // if no resume, the button will not show up
 };
 
