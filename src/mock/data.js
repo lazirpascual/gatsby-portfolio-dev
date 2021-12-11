@@ -53,6 +53,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'project5.jpg',
+    subtitle: 'C#, WPF, MySQL',
+    title: 'Transportation Management System',
+    info: 'Worked with 3 other students to develop a prototype for an application that effectively manages the transportation of goods across Ontario, via truck/train. Companies will have the ability to track the purchasing, scheduling, monitoring and billing of their orders.',
+    info2:
+      'User Interface was created using C# and WPF, with the data being stored to a MySQL database. Agile methodology and Test-Driven-Development were incorporated throughout the entirety of the project.',
+    url: 'https://github.com/lazirpascual/Transportation-Management-System',
+    repo: 'https://github.com/lazirpascual/Transportation-Management-System', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project3.jpg',
     title: 'Covid-19 Tracker',
     subtitle: 'React, Charts.js, Material-UI',
